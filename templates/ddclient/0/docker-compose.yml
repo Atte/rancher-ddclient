@@ -1,0 +1,11 @@
+version: '2'
+services:
+  ddclient:
+    image: registry.gitlab.com/attelynx/rancher-ddclient
+    init: true
+    network_mode: host
+    labels:
+      io.rancher.scheduler.global: 'true'
+      io.rancher.container.pull_image: always
+    environment:
+      DDCLIENT_CONFIG: ${DDCLIENT_CONFIG}

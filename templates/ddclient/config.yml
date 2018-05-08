@@ -1,0 +1,7 @@
+name: ddclient
+description: Uses ddclient to keep DNS records pointing to the hosts up to date.
+version: "1.0.0"
+category: External DNS
+maintainer: Atte Virtanen <aten.email@gmail.com>
+license: GPLv3
+projectURL: https://gitlab.com/AtteLynx/rancher-ddclient
